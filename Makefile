@@ -2,6 +2,7 @@ NAME = fdf
 
 SRCS = main.c read_map.c projection.c line_union.c fdf_utils.c ft_split.c draw.c \
 get_next_line.c get_next_line_utils.c color.c key_hook.c text_panel.c handle_close.c \
+build_win.c \
 
 OBJ_DIR = obj
 

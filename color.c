@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   color.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agnesgar <agnesgar@student.42madrid.com>   #+#  +:+       +#+        */
+/*   By: agnes <agnes@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-06 11:21:35 by agnesgar          #+#    #+#             */
-/*   Updated: 2025-04-06 11:21:35 by agnesgar         ###   ########.fr       */
+/*   Created: 2025/04/06 11:21:35 by agnesgar          #+#    #+#             */
+/*   Updated: 2025/04/11 10:56:58 by agnes            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,19 @@ int	get_color(int z)
 		return (0xEDEDED);
 	return (0xFFFFFF);
 }
-
-/* only for cyber02
+	
+// only for cyber02
+/*
 int	get_color(int z)
 {
 	if (z <= 100)
-		return (0x8B3A3A); // rosa salmón pastel
+		return (0x8B3A3A);
 	if (z <= 200)
-		return (0xE99696); // rosa más claro
+		return (0xE99696);
 	if (z <= 300)
-		return (0xFADDDD); // rosa suave
+		return (0xFADDDD);
 	if (z <= 500)
-		return (0xEDEDED); // grisáceo suave
-	return (0xFFFFFF);     // blanco
+		return (0xEDEDED);
+	return (0xFFFFFF);
 }
 */

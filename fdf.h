@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agnesgar <agnesgar@student.42madrid.com>   #+#  +:+       +#+        */
+/*   By: agnes <agnes@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-04 20:36:47 by agnesgar          #+#    #+#             */
-/*   Updated: 2025-04-04 20:36:47 by agnesgar         ###   ########.fr       */
+/*   Created: 2025/04/04 20:36:47 by agnesgar          #+#    #+#             */
+/*   Updated: 2025/04/11 10:34:39 by agnes            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,6 +105,9 @@ int		get_width(const char *filename);
 char	**ft_split(char *s, char c);
 int		map_filler(t_map *map, const char *filename);
 void	filler_aux(t_point *row, char **split, int y, int width);
+
+/*-*- create frame by frame *-*/
+int	create_window(void *param);
 
 /*-*- draw topography *-*/
 void	draw_map(t_map *map, t_data *img, t_view *view);
