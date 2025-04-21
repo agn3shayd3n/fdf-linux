@@ -27,10 +27,10 @@ The controls were programmed using **key hooks** and include:
 
 ### 🖼️ Screenshots
 
-![Screenshot 2](https://github.com/agn3shayd3n/fdf42/blob/main/img/fdf02.png)  
-![Screenshot 3](https://github.com/agn3shayd3n/fdf42/blob/main/img/fdf03.png)  
-![Screenshot 1](https://github.com/agn3shayd3n/fdf42/blob/main/img/fdf01.png)
-![Screenshot 4](https://github.com/agn3shayd3n/fdf42/blob/main/img/fdf04.png)  
+![Screenshot 2](https://github.com/agn3shayd3n/fdf-linux/blob/main/img/fdf02.png)  
+![Screenshot 3](https://github.com/agn3shayd3n/fdf-linux/blob/main/img/fdf03.png)  
+![Screenshot 1](https://github.com/agn3shayd3n/fdf-linux/blob/main/img/fdf01.png)
+![Screenshot 4](https://github.com/agn3shayd3n/fdf-linux/blob/main/img/fdf04.png)  
 
 ---
 
@@ -91,12 +91,12 @@ Extra points are awarded for implementing:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/agn3shayd3n/fdf42.git
+git clone https://github.com/agn3shayd3n/fdf-linux.git
 ```
 Navigate to the MiniLibX directory and compile:
 
 ```bash
-cd minilibx_macos
+cd minilibx
 make
 ```
 Return to the main directory and compile the project:
