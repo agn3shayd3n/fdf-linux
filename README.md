@@ -7,7 +7,7 @@ This internal library provides the basic tools to open a window, create images, 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-000000.svg?style=for-the-badge)
 
-📄 [Click here to see the official subject PDF](https://github.com/agn3shayd3n/fdf42/blob/main/es.subject.pdf)
+📄 [Click here to see the official subject PDF](https://github.com/agn3shayd3n/fdf-linux/blob/main/es.subject.pdf)
 
 ---
 
